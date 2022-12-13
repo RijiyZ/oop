@@ -23,10 +23,10 @@ public class Car {
         }
         this.engineVolume = engineVolume;
         if (color == ""){
-            color = "Белый";
+            color = "Белый ";
         }
         if (color == null){
-            color = "Белый";
+            color = "Белый ";
         }
         this.color = color;
         if (productionYear <= 0) {
